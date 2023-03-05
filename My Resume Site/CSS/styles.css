@@ -1,0 +1,29 @@
+hr {
+    color: grey; 
+    height: 0px;
+    width: 3%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+}
+body {
+    background-color: #eaf6f6;
+}
+h1 {
+    color: #66bfbf;
+    font-style: italic;
+}
+h2 {
+    color: #466995;
+    text-decoration: underline;
+    text-decoration-color: #66bfbf;
+    font-style: italic;
+}
+td {
+    text-align: left;
+    padding: 10px;
+}
+th {
+    text-align: center;
+    padding: 10px;
+}

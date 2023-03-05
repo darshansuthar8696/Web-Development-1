@@ -1,0 +1,38 @@
+/******************tag selector**************************/
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: brown; 
+    font-size: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+/******************class selector**************************/
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+}
+
+/******************ID selector**************************/
+#heading {
+    color: blue;
+}
+
+/******************Pseudo Class**************************/
+img:hover {
+    background-color: black;
+}
+
+.broccoli:hover {
+    background-color: blueviolet;
+}

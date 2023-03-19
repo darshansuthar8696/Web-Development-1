@@ -1,0 +1,5 @@
+.body {
+    background-image: #20002c;  /* fallback for old browsers */
+    background-image: -webkit-linear-gradient(60deg, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(60deg, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}

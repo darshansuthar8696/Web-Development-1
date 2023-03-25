@@ -8,17 +8,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css.css">
     <title>Metadoor Website</title>
+    <style>
+        .navbar-custom {
+            background-color: #b492e7;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: white;
+        }
+    </style>
 </head>
 <body class="body">
+    background: linear-gradient(135deg, rgba(196,181,218,1) 0%, rgba(214,178,211,1) 60%, rgba(238,174,202,1) 100%);
     <section id="Introduction">
         <!--navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top">
-            <a class="navbar-brand" href="">Metadoor</a>
+        <nav class="navbar navbar-expand-lg navbar-custom navbar fixed-top">
+            <a class="navbar-brand" href="">MetaDoor</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarhamburger" aria-controls="navbarhamburger" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse continer-fluid" id="navbarhamburger">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav">
                     <li class="navbar-item">
                         <a class="nav-link" href=""> Services </a>
                     </li>
@@ -28,6 +38,8 @@
                     <li class="navbar-item">
                         <a class="nav-link" href=""> Contact Us </a>
                     </li>
+                </ul>
+                <ul class="navbar-nav ms-auto"
                     <li class="navbar-item">
                         <a class="nav-link" href=""> Downloads </a>
                     </li>
@@ -36,11 +48,15 @@
                     </li>
                 </ul>
             </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark" type="submit">Search</button>
+            </form>
         </nav>
 
         <!--intro-->
         <div>
-
+            
         </div>
     </section>
 </body>
